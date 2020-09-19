@@ -1,4 +1,4 @@
-# TeslaAutoClimate
+# TeslaAutoClimate with Microsoft Flow (Power Automate)
 Based on an idea found at https://www.portiva.nl/nl/portiblog/microsoft-power-automate-tesla-api I decided to modify the Flow to add some missing parts.
 
 You can download the Zip package and import it into your environment. The following variables have to be modified:
