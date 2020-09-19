@@ -2,13 +2,13 @@
 Based on an idea found at https://www.portiva.nl/nl/portiblog/microsoft-power-automate-tesla-api I decided to modify the Flow to add some missing parts.
 
 You can download the Zip package and import it into your environment. The following variables have to be modified:
-username: This is your login for Tesla
-Password: Your Tesla password
-MinimalPower: Flow will not be executed if the SoC is below this value
-HeatorCoolingTime: How long should the cooling or heating run
-MinTemp: Heating will be run, if the outside temperature is below this value
-MaxTemp: Cooling will be run, if the inside temperature is above this value
-Temperature: The desired temperature inside the car
+- username: This is your login for Tesla
+- Password: Your Tesla password
+- MinimalPower: Flow will not be executed if the SoC is below this value
+- HeatorCoolingTime: How long should the cooling or heating run
+- MinTemp: Heating will be run, if the outside temperature is below this value
+- MaxTemp: Cooling will be run, if the inside temperature is above this value
+- Temperature: The desired temperature inside the car
 
 And last but not least: Edit the very first item, select the calendar and define the LookAhead time under "advanced". The LookAhead time should be the value as the HeatOrCoolingTime. The "Check agenda for calendar" should also be edited to match the subject you want.
 
